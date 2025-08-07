@@ -1,0 +1,17 @@
+{
+ "admin_password": "admin",
+ "auto_email_id": "abdulazizkomilov2001@gmail.com",
+ "db_host": "localhost",
+ "db_name": "helpdesk.localhost",
+ "db_password": "996311",
+ "db_port": 3306,
+ "db_type": "mariadb",
+ "db_user": "abdulaziz",
+ "developer_mode": 1,
+ "encryption_key": "NZgjBRy8GYCwalED0HGoyJEFV3lfDdsPHvH9t8uxQxQ=",
+ "mail_login": "abdulazizkomilov2001@gmail.com",
+ "mail_password": "audfbjafmcmzxkpb",
+ "mail_server": "smtp.example.com",
+ "mute_emails": 1,
+ "server_script_enabled": 1
+}

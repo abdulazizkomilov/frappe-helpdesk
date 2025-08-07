@@ -1,0 +1,20 @@
+{
+ "background_workers": 1,
+ "db_host": "localhost",
+ "default_site": "helpdesk.localhost",
+ "file_watcher_port": 6788,
+ "frappe_user": "abdulaziz",
+ "gunicorn_workers": 17,
+ "live_reload": true,
+ "rebase_on_pull": false,
+ "redis_cache": "redis://localhost:6379",
+ "redis_queue": "redis://localhost:6379",
+ "redis_socketio": "redis://localhost:6379",
+ "restart_supervisor_on_update": false,
+ "restart_systemd_on_update": false,
+ "serve_default_site": true,
+ "shallow_clone": true,
+ "socketio_port": 9001,
+ "use_redis_auth": false,
+ "webserver_port": 8001
+}

@@ -1,0 +1,51 @@
+2025-08-07 17:10:04,809 INFO ipython === bench console session ===
+2025-08-07 17:10:04,809 INFO ipython import frappe
+2025-08-07 17:10:04,809 INFO ipython user = frappe.get_doc({
+    "doctype": "User",
+    "email": "admin@gamil.com",
+    "first_name": "Test",
+    "last_name": "User",
+    "send_welcome_email": 0
+})
+2025-08-07 17:10:04,809 INFO ipython user.insert(ignore_permissions=True)
+2025-08-07 17:10:04,810 INFO ipython user.set_password("admin")
+2025-08-07 17:10:04,810 INFO ipython from frappe.utils.password import set_user_password
+2025-08-07 17:10:04,810 INFO ipython from frappe.core.doctype.user.user import set_new_password
+
+set_new_password('admin@gmail.com', 'admin')
+2025-08-07 17:10:04,810 INFO ipython from frappe.core.doctype.user.user import set_new_password
+
+set_new_password('admin@gmail.com', 'admin')
+2025-08-07 17:10:04,810 INFO ipython import frappe
+from frappe.core.doctype.user.user import set_new_password
+
+# Foydalanuvchi obyekti yaratish
+user = frappe.get_doc({
+    "doctype": "User",
+    "email": "admin@gmail.com",
+    "first_name": "Admin",
+    "enabled": 1,
+    "role_profile_name": "System Manager"
+})
+
+user.insert(ignore_permissions=True)
+
+# Parol o‘rnatish
+set_new_password("admin@gmail.com", "admin")
+2025-08-07 17:10:04,810 INFO ipython import frappe
+
+# Foydalanuvchini yaratish
+user = frappe.get_doc({
+    "doctype": "User",
+    "email": "admin@gmail.com",
+    "first_name": "Admin",
+    "role_profile_name": "System Manager",
+    "send_welcome_email": 0,  # Email yuborishni istamasangiz
+})
+user.insert()
+
+# Parolni o'rnatish
+user.set_password("admin123")
+2025-08-07 17:10:04,810 INFO ipython \q
+2025-08-07 17:10:04,810 INFO ipython clear
+2025-08-07 17:10:04,810 INFO ipython === session end ===
